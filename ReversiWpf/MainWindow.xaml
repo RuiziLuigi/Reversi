@@ -1,0 +1,90 @@
+﻿<Window x:Class="ReversiWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="614" Width="450" xmlns:my="clr-namespace:ReversiWpf">
+    <Grid>
+        <Grid Height="400" HorizontalAlignment="Left" Margin="10,10,0,0" Name="grid1" VerticalAlignment="Top" Width="400">
+            <my:Circle HorizontalAlignment="Left" Margin="0,0,0,0" x:Name="circle1_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,0,0,0" x:Name="circle1_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,0,0,0" x:Name="circle1_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,0,0,0" x:Name="circle1_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,0,0,0" x:Name="circle1_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,0,0,0" x:Name="circle1_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,0,0,0" x:Name="circle1_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,0,0,0" x:Name="circle1_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="0,50,0,0" x:Name="circle2_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,50,0,0" x:Name="circle2_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,50,0,0" x:Name="circle2_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,50,0,0" x:Name="circle2_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,50,0,0" x:Name="circle2_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,50,0,0" x:Name="circle2_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,50,0,0" x:Name="circle2_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,50,0,0" x:Name="circle2_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="0,100,0,0" x:Name="circle3_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,100,0,0" x:Name="circle3_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,100,0,0" x:Name="circle3_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,100,0,0" x:Name="circle3_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,100,0,0" x:Name="circle3_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,100,0,0" x:Name="circle3_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,100,0,0" x:Name="circle3_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,100,0,0" x:Name="circle3_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="0,150,0,0" x:Name="circle4_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,150,0,0" x:Name="circle4_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,150,0,0" x:Name="circle4_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,150,0,0" x:Name="circle4_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,150,0,0" x:Name="circle4_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,150,0,0" x:Name="circle4_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,150,0,0" x:Name="circle4_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,150,0,0" x:Name="circle4_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="0,200,0,0" x:Name="circle5_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,200,0,0" x:Name="circle5_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,200,0,0" x:Name="circle5_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,200,0,0" x:Name="circle5_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,200,0,0" x:Name="circle5_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,200,0,0" x:Name="circle5_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,200,0,0" x:Name="circle5_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,200,0,0" x:Name="circle5_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="0,250,0,0" x:Name="circle6_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,250,0,0" x:Name="circle6_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,250,0,0" x:Name="circle6_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,250,0,0" x:Name="circle6_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,250,0,0" x:Name="circle6_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,250,0,0" x:Name="circle6_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,250,0,0" x:Name="circle6_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,250,0,0" x:Name="circle6_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="0,300,0,0" x:Name="circle7_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,300,0,0" x:Name="circle7_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,300,0,0" x:Name="circle7_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,300,0,0" x:Name="circle7_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,300,0,0" x:Name="circle7_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,300,0,0" x:Name="circle7_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,300,0,0" x:Name="circle7_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,300,0,0" x:Name="circle7_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="0,350,0,0" x:Name="circle8_1" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="50,350,0,0" x:Name="circle8_2" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="100,350,0,0" x:Name="circle8_3" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="150,350,0,0" x:Name="circle8_4" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="200,350,0,0" x:Name="circle8_5" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="250,350,0,0" x:Name="circle8_6" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="300,350,0,0" x:Name="circle8_7" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+            <my:Circle HorizontalAlignment="Left" Margin="350,350,0,0" x:Name="circle8_8" VerticalAlignment="Top" MouseUp="circle_MouseUp" />
+        </Grid>
+        <Button Content="S t a r t" Height="47" HorizontalAlignment="Left" Margin="60,516,0,0" Name="stbutton" VerticalAlignment="Top" Width="134" Foreground="Green" BorderBrush="Green" FontSize="20" FontWeight="Bold" FontStyle="Normal" FontStretch="Normal" Click="stbutton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#FF00C800" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="白のターンです" Height="36" HorizontalAlignment="Left" Margin="110,450,0,0" Name="stateLabel" VerticalAlignment="Top" Width="200" FontSize="20" FontStretch="Normal" HorizontalContentAlignment="Center" />
+        <Button BorderBrush="Green" Content=" S k i p " FontSize="20" FontStretch="Normal" FontStyle="Normal" FontWeight="Bold" Foreground="Green" Height="47" HorizontalAlignment="Left" Margin="226,516,0,0" Name="skpbutton" VerticalAlignment="Top" Width="134" Click="skpbutton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#FF00C800" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
